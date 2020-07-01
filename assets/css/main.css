@@ -188,7 +188,12 @@ html {
 }
 
 body {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #f0ece7;
+}
+
+.selection {
+  width: 100%;
 }
 
 body.is-preload *,
@@ -436,7 +441,7 @@ hr.major {
 }
 
 .cta-prescreen-truefalse-dropdown {
-  width: 20%;
+  width: 60%;
 }
 /* Row */
 
