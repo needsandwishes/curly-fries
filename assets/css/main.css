@@ -188,7 +188,7 @@ html {
 }
 
 body {
-  background: #faf3f3;
+  background: white;
 }
 
 body.is-preload *,
@@ -1905,11 +1905,35 @@ article.special {
 
 header p {
   font-family: "Roboto Slab", serif;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: 0.075em;
+  /* font-family: "Bad Script", cursive; */
+  font-size: 2em;
+  font-weight: 800;
+  /* letter-spacing: 0.09em; */
   margin-top: -0.5em;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  /* width: 80%; */
+  /* margin-top: 8%;
+  margin-left: 12%;
+  margin-bottom: 8%; */
+}
+
+.index-title {
+  font-family: "Bad Script", cursive;
+  text-transform: capitalize;
+  font-size: large;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+
+.index-title-2 {
+  font-family: "Bad Script", cursive;
+  text-transform: capitalize;
+  font-size: large;
+  padding: 5%;
+  margin-left: 20%;
+  margin-top: -12%;
+  margin-bottom: -8%;
 }
 
 header.major > :last-child {
@@ -3505,6 +3529,9 @@ button:disabled,
   width: 50%;
 }
 
+.index-title {
+}
+
 #banner .image {
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
@@ -3605,6 +3632,11 @@ button:disabled,
   margin-bottom: 0;
   padding: 0;
   text-transform: uppercase;
+}
+
+.quote-title {
+  font-family: "Bad Script", cursive;
+  width: 85%;
 }
 
 #menu ul a,
