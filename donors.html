@@ -66,10 +66,10 @@
 
 <h2>Personal Contact Information</h2>
 
-
+<form action="https://formspree.io/moqkkvee" method="POST">
 <label>
   Full Name: *
-  <input type="text" name="_replyto" words required>
+  <input type="text" required>
 </label>
 <label>
   Home Address: *
@@ -138,29 +138,29 @@
 </label>
 <label>
   Zip Code: *
-  <input type="text" name="_replyto" required>
+  <input type="text"  required>
 </label>
 <label>
-  Country: *
-  <select name="country" id="country" required>
-    <option value="" selected="selected">Select a Country</option>
-    <option value="AL">United States</option>
-    <option value="AK">Canada</option>
+  Country: 
+  <select name="country" id="country">
+    <option value="" selected="selected">United States</option>
+    <!-- <option value="AL">United States</option>
+    <option value="AK">Canada</option> -->
   </select>
 </label>
 <label>
   Daytime Phone: *
-  <input type="text" name="_replyto" required>
+  <input type="text"  required>
 </label>
 <div class="cta-confirm-email">
   <label>
     Email Address: *
     <input type="text" name="_replyto" required>
   </label>
-  <label>
+  <!-- <label>
     Confirm Email Address: *
     <input type="text" name="_replyto" required>
-  </label>
+  </label> -->
 </div>
 <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6" required></textarea>
 <br>
@@ -826,5 +826,10 @@ print 'It took ' + i + ' iterations to sort the deck.';
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+      <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+      <script>
+        window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+        formbutton("create", { action: "https://formspree.io/moqkkvee" })
+      </script>
   </body>
 </html>
